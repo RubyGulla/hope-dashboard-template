@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Hope Modern Admin Template</title>
+	<link rel="stylesheet" href="../../assets/css/style.css">
+	<link rel="stylesheet" href="../../assets/css/cs.css">
+	<!-- Demo Stylesheet -->
+	<link rel="stylesheet" href="assets/css/video-js.min.css">
+	<style type="text/css">
+		.main-video {
+		  width: 100%;
+		  height: 450px;
+		}
+	</style>
+</head>
+<body>
+<div class="base">
+  <div class="home">
+  	<div class="sidebar">
+  		<div class="profile">
+  			<img src="../../assets/images/jack.jpg" class="avatar" alt="">
+  			<div class="name">Jack Spears</div>
+  		</div>
+  		<div class="menu" active-menu="2">
+  			<div class="item" menu-id="1"><i class="desktop icon"></i> Class Room</div>
+  			<div class="item" menu-id="2"><i class="mail outline icon"></i> Inbox</div>
+  			<div class="item" menu-id="3"><i class="book icon"></i> School Library</div>
+
+  		</div>
+  	</div>
+  	<div class="top menu">
+  		<div class="right menu">
+  			<div class="item" couple-id="inbox">
+  				<i class="mail outline link icon"></i>
+				<div class="mail dropdown" couple-data="inbox">
+					<div class="header">
+						Inbox
+						<a href="" title="Read All Message" class="mark read icon"> 
+							<i class="chevron right link icon"></i>
+						</a>
+					</div>
+
+					<div class="item">
+						<div class="avatar"><img src="../../assets/images/jack.jpg" alt=""></div>
+						<div class="content">
+							hublaaaaa, chicken can fly without wings
+						</div>
+						<div class="date">Jack Spears - 3 Minute ago</div>
+					</div>
+
+					<div class="item">
+						<div class="avatar"><img src="assets/images/rubi.jpg" alt=""></div>
+						<div class="content">
+							hi, i got the point, now, chicken can fly!
+						</div>
+						<div class="date">Jono Doe - 2 Hours ago</div>
+					</div>
+
+					<div class="item">
+						<div class="avatar"><img src="../../assets/images/cutecat.jpg" alt=""></div>
+						<div class="content">
+							Rubii, i need some food :(, i'm hungry 
+						</div>
+						<div class="date">My Cat - 5 Hours ago</div>
+					</div>
+
+					<div class="item">
+						<div class="avatar"><img src="../../assets/images/ciayo.png" alt=""></div>
+						<div class="content">
+							Hey, how are you, i just coming
+						</div>
+						<div class="date">Alexandra Blaze - 6 Hours ago</div>
+					</div>
+
+				</div>  				
+  			</div>
+  			<div class="item" couple-id="notification">
+  				<i class="alarm link icon"></i>
+				<div class="alarm dropdown" couple-data="notification">
+					<div class="header">
+						Notification
+						<a href="" title="Read All Message" class="mark read icon"> 
+							<i class="chevron right link icon"></i>
+						</a>
+					</div>
+					<div class="list">
+						<div class="item">
+							<div class="icon"><i class="heart icon"></i></div>
+							<div class="content">
+								Someone like your post about cat
+							</div>
+							<div class="date">3 Minute ago</div>
+						</div>
+
+						<div class="item">
+							<div class="icon"><i class="info icon"></i></div>
+							<div class="content">
+								Server status has been stable
+							</div>
+							<div class="date">5 Hours ago</div>
+						</div>
+
+						<div class="item">
+							<div class="icon"><i class="ticket icon"></i></div>
+							<div class="content">
+								Someone wanna buy your ticket
+							</div>
+							<div class="date">7 Hours ago</div>
+						</div>	
+					</div>
+				</div>  
+  			</div>
+  			<div class="item" couple-id="tasks">
+  				<i class="tasks link icon"></i>
+				<div class="tasks dropdown" couple-data="tasks">
+					<div class="header">
+						Tasks
+						<a href="" title="Read All Message" class="mark read icon"> 
+							<i class="chevron right link icon"></i>
+						</a>
+					</div>
+					<div class="list">
+
+						<div class="item">
+							<div class="progress">
+							  <div>
+							    <div class="percent">10%</div>
+							  </div>Server Upgrade&nbsp;
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="progress">
+							  <div style="width:75%;">
+							    <div class="percent">75%</div>
+							  </div>Change Harddisk&nbsp;
+							</div>
+						</div>
+
+					</div>
+				</div>  
+  			</div>
+  			<div class="item" couple-id="ayam">
+  				<i class="user link icon"></i>
+				<div class="user dropdown" couple-data="ayam">
+					<div class="header">
+						Your Account
+					</div>
+					<div class="list">
+						<div class="item">
+							<div class="icon"><i class="user icon"></i></div>
+							<div class="content">
+								Profile
+							</div>
+						</div>
+						<div class="item">
+							<div class="icon"><i class="setting icon"></i></div>
+							<div class="content">
+								Settings
+							</div>
+						</div>
+						<div class="item">
+							<div class="icon"><i class="sign out icon"></i></div>
+							<div class="content">
+								Logout
+							</div>
+						</div>
+
+					</div>
+				</div>  
+  			</div>
+  		</div>
+  	</div>
+
+<div class="main-content" style="height:1000px;"><br>
+
+	<div class="main grid">
+		<div class="four column">
+			<div class="fluid icon input">
+				<input type="text" placeholder="Search Important message, spam, etc">
+				<i class="search icon"></i>
+			</div>
+
+				<div class="block">
+
+					<div class="list">
+
+						<div class="link item">
+							<i class="avatar users icon"></i>
+							<div class="content">
+								Social
+								<div class="act">
+									<a>Your friend, family, etc</a>
+								</div>
+							</div>
+							<div class="right floated label">72</div>
+						</div>
+
+						<div class="link item">
+							<i class="avatar star icon"></i>
+							<div class="content">
+								Important
+								<div class="act">
+									<a>Saved message, files, etc</a>
+								</div>
+							</div>
+							<div class="right floated label">55</div>
+						</div>
+
+						<div class="link item">
+							<i class="avatar payment icon"></i>
+							<div class="content">
+								Bills
+								<div class="act">
+									<a>Water, electricity, house bill</a>
+								</div>
+							</div>
+							<div class="right floated label">86</div>
+						</div>
+
+						<div class="link item">
+							<i class="avatar announcement icon"></i>
+							<div class="content">
+								Promotions
+								<div class="act">
+									<a>From subsribed online shop, forum, etc</a>
+								</div>
+							</div>
+							<div class="right floated label">99</div>
+						</div>
+
+						<div class="link item">
+							<i class="avatar suitcase icon"></i>
+							<div class="content">
+								Jobs
+								<div class="act">
+									<a>Boss area, tasks, and something</a>
+								</div>
+							</div>
+							<div class="right floated label">4</div>
+						</div>
+
+					</div>
+
+				</div>
+		</div>
+		<div class="twelve column">
+
+			<div class="button">
+				<i class="white warning circle icon"></i>
+				<div class="default">Mark as spam</div>
+			</div>
+			<div class="button">
+				<i class="white trash icon"></i>
+				<div class="default">Trash</div>
+			</div>
+			<div class="button right floated">
+				<i class="white checkmark icon"></i>
+				<div class="default">Mark as readed</div>
+			</div>
+
+				<div class="block">
+
+					<div class="list">
+
+						<div class="link item">
+							<img src="../../assets/images/jack.jpg" class="avatar" alt="">
+							<div class="content">
+								Jack Spears <small>mylittlespears@*.com</small>
+								<div class="act">
+									<a>Hi buddy, how are you? i'll coming sunday for you</a>
+								</div>
+							</div>
+							<i class="square outline right floated pack icon"></i>
+							<i class="attach right floated pack icon"></i>
+						</div>
+
+						<div class="link item">
+							<img src="../../assets/images/rubi.jpg" class="avatar" alt="">
+							<div class="content">
+								Rubi Jihantoro <small>jihantoro8@gmail.com</small>
+								<div class="act">
+									<a>Hi, i need my old bag please, and also my cat food</a>
+								</div>
+							</div>
+							<i class="square outline right floated pack icon"></i>
+							<i class="attach right floated pack icon"></i>
+						</div>
+
+						<div class="link item">
+							<img src="../../assets/images/bob.jpg" class="avatar" alt="">
+							<div class="content">
+								Bobby C <small>boodybooby@*.com</small>
+								<div class="act">
+									<a>this is my portofolio and my id card...</a>
+								</div>
+							</div>
+							<i class="right floated pack icon" checked="Y"></i>
+							<i class="attach right floated pack icon"></i>
+						</div>
+
+						<div class="link item">
+							<img src="../../assets/images/gtfo.gif" class="avatar" alt="">
+							<div class="content">
+								Jacketh <small>anowosomjacket@*.com</small>
+								<div class="act">
+									<a>bud, i need your UI/UX Skill, please contact my phone number for more info.. ;)</a>
+								</div>
+							</div>
+							<i class="right floated pack icon" checked="Y"></i>
+						</div>
+
+						<div class="link item">
+							<img src="../../assets/images/cutecat.jpg" class="avatar" alt="">
+							<div class="content">
+								Ozy <small>onozy@*.com</small>
+								<div class="act">
+									<a>rubiii, i need my food, i'm hungry... just give me 5 pizza box, with cheese and orange juice</a>
+								</div>
+							</div>
+							<i class="checkmark box right floated pack icon"></i>
+						</div>
+
+						<div class="link item">
+							<img src="../../assets/images/rubi.jpg" class="avatar" alt="">
+							<div class="content">
+								Rubi Jihantoro <small>jihantoro8@gmail.com</small>
+								<div class="act">
+									<a>Hi, i need my old bag please, and also my cat food</a>
+								</div>
+							</div>
+							<i class="square outline right floated pack icon"></i>
+							<i class="attach right floated pack icon"></i>
+						</div>
+
+					</div>
+
+				</div>
+		</div>
+	</div>
+
+</div>
+  
+  </div>
+</div>
+<script src="../../assets/js/jquery.js"></script>
+<script src="../../assets/js/cs.js"></script>
+<script src="../../assets/js/jquery.flot.js"></script>
+<script src="../../assets/js/jquery.flot.resize.js"></script>
+<script src="../../assets/js/app.js"></script>
+<!-- Demo Script -->
+<script src="assets/js/video.min.js"></script>
+<script type="text/javascript">
+		(function($){
+			$(window).on("load",function(){
+
+				var amount=Math.max.apply(Math,$(".scrolled#horizontal").map(function(){return $(this).outerWidth(true);}).get());
+				
+				$(".scrolled#horizontal").mCustomScrollbar({
+					axis:"x",
+					theme:"minimal-dark",
+					advanced:{
+						autoExpandHorizontalScroll:true
+					},
+					scrollButtons:{
+						enable:true,
+						scrollType:"stepped"
+					},
+					keyboard:{scrollType:"stepped"},
+					snapAmount:amount,
+					mouseWheel:{
+						scrollAmount:amount
+					}
+				});
+				
+			});
+		})(jQuery);
+</script>
+</body>
+</html>

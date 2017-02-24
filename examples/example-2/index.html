@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Hope Modern Admin Template</title>
+	<link rel="stylesheet" href="../../assets/css/style.css">
+	<link rel="stylesheet" href="../../assets/css/cs.css">
+	<!-- Demo Stylesheet -->
+	<link rel="stylesheet" href="assets/css/video-js.min.css">
+	<style type="text/css">
+		.main-video {
+		  width: 100%;
+		  height: 450px;
+		}
+	</style>
+</head>
+<body>
+<div class="base">
+  <div class="home">
+  	<div class="sidebar">
+  		<div class="profile">
+  			<img src="../../assets/images/jack.jpg" class="avatar" alt="">
+  			<div class="name">Jack Spears</div>
+  		</div>
+  		<div class="menu" active-menu="1">
+  			<div class="item" menu-id="1"><i class="home icon"></i> Class</div>
+  			<div class="item" menu-id="2"><i class="mail outline icon"></i> Inbox</div>
+  			<div class="item" menu-id="3"><i class="book icon"></i> School Library</div>
+  		</div>
+  	</div>
+  	<div class="top menu">
+  		<div class="right menu">
+  			<div class="item" couple-id="inbox">
+  				<i class="mail outline link icon"></i>
+				<div class="mail dropdown" couple-data="inbox">
+					<div class="header">
+						Inbox
+						<a href="" title="Read All Message" class="mark read icon"> 
+							<i class="chevron right link icon"></i>
+						</a>
+					</div>
+
+					<div class="item">
+						<div class="avatar"><img src="../../assets/images/jack.jpg" alt=""></div>
+						<div class="content">
+							hublaaaaa, chicken can fly without wings
+						</div>
+						<div class="date">Jack Spears - 3 Minute ago</div>
+					</div>
+
+					<div class="item">
+						<div class="avatar"><img src="assets/images/rubi.jpg" alt=""></div>
+						<div class="content">
+							hi, i got the point, now, chicken can fly!
+						</div>
+						<div class="date">Jono Doe - 2 Hours ago</div>
+					</div>
+
+					<div class="item">
+						<div class="avatar"><img src="../../assets/images/cutecat.jpg" alt=""></div>
+						<div class="content">
+							Rubii, i need some food :(, i'm hungry 
+						</div>
+						<div class="date">My Cat - 5 Hours ago</div>
+					</div>
+
+					<div class="item">
+						<div class="avatar"><img src="../../assets/images/ciayo.png" alt=""></div>
+						<div class="content">
+							Hey, how are you, i just coming
+						</div>
+						<div class="date">Alexandra Blaze - 6 Hours ago</div>
+					</div>
+
+				</div>  				
+  			</div>
+  			<div class="item" couple-id="notification">
+  				<i class="alarm link icon"></i>
+				<div class="alarm dropdown" couple-data="notification">
+					<div class="header">
+						Notification
+						<a href="" title="Read All Message" class="mark read icon"> 
+							<i class="chevron right link icon"></i>
+						</a>
+					</div>
+					<div class="list">
+						<div class="item">
+							<div class="icon"><i class="heart icon"></i></div>
+							<div class="content">
+								Someone like your post about cat
+							</div>
+							<div class="date">3 Minute ago</div>
+						</div>
+
+						<div class="item">
+							<div class="icon"><i class="info icon"></i></div>
+							<div class="content">
+								Server status has been stable
+							</div>
+							<div class="date">5 Hours ago</div>
+						</div>
+
+						<div class="item">
+							<div class="icon"><i class="ticket icon"></i></div>
+							<div class="content">
+								Someone wanna buy your ticket
+							</div>
+							<div class="date">7 Hours ago</div>
+						</div>	
+					</div>
+				</div>  
+  			</div>
+  			<div class="item" couple-id="tasks">
+  				<i class="tasks link icon"></i>
+				<div class="tasks dropdown" couple-data="tasks">
+					<div class="header">
+						Tasks
+						<a href="" title="Read All Message" class="mark read icon"> 
+							<i class="chevron right link icon"></i>
+						</a>
+					</div>
+					<div class="list">
+
+						<div class="item">
+							<div class="progress">
+							  <div>
+							    <div class="percent">10%</div>
+							  </div>Server Upgrade&nbsp;
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="progress">
+							  <div style="width:75%;">
+							    <div class="percent">75%</div>
+							  </div>Change Harddisk&nbsp;
+							</div>
+						</div>
+
+					</div>
+				</div>  
+  			</div>
+  			<div class="item" couple-id="ayam">
+  				<i class="user link icon"></i>
+				<div class="user dropdown" couple-data="ayam">
+					<div class="header">
+						Your Account
+					</div>
+					<div class="list">
+						<div class="item">
+							<div class="icon"><i class="user icon"></i></div>
+							<div class="content">
+								Profile
+							</div>
+						</div>
+						<div class="item">
+							<div class="icon"><i class="setting icon"></i></div>
+							<div class="content">
+								Settings
+							</div>
+						</div>
+						<div class="item">
+							<div class="icon"><i class="sign out icon"></i></div>
+							<div class="content">
+								Logout
+							</div>
+						</div>
+
+					</div>
+				</div>  
+  			</div>
+  		</div>
+  	</div>
+
+<div class="main-content" style="height:1000px;"><br>
+		<div class="main grid">
+			<div class="ten column">
+			  <video class="video-js main-video vjs-default-skin" controls preload="none"
+			      data-setup='{ "html5" : { "nativeTextTracks" : false } }'>
+			    <source src="assets/videos/vid1.mp4" type="video/mp4">
+
+			    <track kind="captions" src="captions.en.vtt" srclang="en" label="English" default></track>
+
+			    <p class="vjs-no-js">
+			    	To view this video please enable JavaScript, and consider upgrading to a web browser that 
+			    	<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+			    </p>
+			  </video>
+			</div>
+			<div class="six column">
+				<div class="to do block">
+
+					<div class="head">
+						To Do List
+						<i class="minus icon"></i>
+						<i class="add icon"></i>
+						<i class="checkmark icon"></i>
+					</div>
+
+					<div class="scrolled list" style="max-height:395px;">
+
+						<div class="link item">
+							<i class="avatar users icon"></i>
+							<div class="content">
+								Search Friend
+								<div class="act">
+									<a>Search more friend</a>
+								</div>
+							</div>
+							<i class="checkmark box right floated icon"></i>
+						</div>
+
+						<div class="link item">
+							<i class="avatar paw icon"></i>
+							<div class="content">
+								Feeding cat
+								<div class="act">
+									<a>Give some fish for your cat</a>
+								</div>
+							</div>
+							<i class="square outline right floated icon"></i>
+						</div>
+
+						<div class="link item">
+							<i class="avatar food icon"></i>
+							<div class="content">
+								Truss a turkey
+								<div class="act">
+									<a>nyam nyam !</a>
+								</div>
+							</div>
+							<i class="square outline right floated icon"></i>
+						</div>
+
+						<div class="link item">
+							<i class="avatar desktop icon"></i>
+							<div class="content">
+								Coding
+								<div class="act">
+									<a>we wear a glass cause we cant C#</a>
+								</div>
+							</div>
+							<i class="square outline right floated icon"></i>
+						</div>
+
+						<div class="link item">
+							<i class="avatar hotel icon"></i>
+							<div class="content">
+								Sleep
+								<div class="act">
+									<a>empty battery</a>
+								</div>
+							</div>
+							<i class="square outline right floated icon"></i>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+<div class="main grid">
+	<div class="six column">
+				<div class="block">
+
+					<div class="head">
+						Play List
+					</div>
+
+					<div class="scrolled list" style="max-height:395px;">
+
+						<div class="link item">
+							<img src="../../assets/images/jack.jpg" class="avatar" alt="">
+							<div class="content">
+								Learn Blurbs Framework with rubi
+								<div class="act">
+									<a>2:10 minute</a> - 
+									<a class="">Web Development</a> - 
+									<a href="" title="">Javascript</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="link item">
+							<img src="../../assets/images/jack.jpg" class="avatar" alt="">
+							<div class="content">
+								Learn Math Cos &amp; Tan With ruby
+								<div class="act">
+									<a>5:10 minute</a> - 
+									<a class="">General Knowledge</a> - 
+									<a href="" title="">Math</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="link item">
+							<img src="../../assets/images/jack.jpg" class="avatar" alt="">
+							<div class="content">
+								Django Tutorial
+								<div class="act">
+									<a>3:25 minute</a> - 
+									<a class="">Web Development</a> - 
+									<a href="" title="">Python</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="link item">
+							<img src="../../assets/images/jack.jpg" class="avatar" alt="">
+							<div class="content">
+								Learn IBM RPG IV
+								<div class="act">
+									<a>35:22 minute</a> - 
+									<a class="">Banking</a> - 
+									<a href="" title="">RPG</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="link item">
+							<img src="../../assets/images/jack.jpg" class="avatar" alt="">
+							<div class="content">
+								Learn Mikrotik with tobu
+								<div class="act">
+									<a>15:22 minute</a> - 
+									<a class="">Networking</a> - 
+									<a href="" title="">Mikrotik</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+	</div>
+	<div class="ten column">
+		<div class="second chat block">
+
+			<div class="scrolled users" id="horizontal">
+
+				<div class="user">
+					<img src="../../assets/images/bob.jpg" class="avatar" alt="">
+				</div>
+
+				<div class="user">
+					<img src="../../assets/images/jack.jpg" class="avatar" alt="">
+				</div>
+
+				<div class="user">
+					<img src="../../assets/images/cutecat.jpg" class="avatar" alt="">
+				</div>
+
+				<div class="user">
+					<img src="../../assets/images/rubi.jpg" class="avatar" alt="">
+				</div>
+
+				<div class="user">
+					<img src="../../assets/images/ciayo.png" class="avatar" alt="">
+				</div>
+
+				<div class="user">
+					<img src="../../assets/images/bob.jpg" class="avatar" alt="">
+				</div>
+
+				<div class="user">
+					<img src="../../assets/images/gtfo.gif" class="avatar" alt="">
+				</div>
+
+				<div class="user">
+					<img src="../../assets/images/jack.jpg" class="avatar" alt="">
+				</div>
+
+				<div class="user">
+					<img src="../../assets/images/cutecat.jpg" class="avatar" alt="">
+				</div>
+
+				<div class="user">
+					<img src="../../assets/images/rubi.jpg" class="avatar" alt="">
+				</div>
+
+				<div class="user">
+					<img src="../../assets/images/bob.jpg" class="avatar" alt="">
+				</div>
+
+			</div>
+
+<div class="main grid">
+	<div class="three column">
+		
+	</div>
+	<div class="thirteen column" style="border-left: 1px solid #E1E4ED;">
+		<div class="chat list" style="min-height:400px;max-height:401px;">
+
+			<div class="item">
+				<img src="../../assets/images/cutecat.jpg" class="avatar" alt="">
+				<div class="content">
+					<div class="name">Rubi</div>
+					lorem ipsum ne!
+				</div>
+			</div>
+			<div class="item">
+				<img src="../../assets/images/jack.jpg" class="avatar" alt="">
+				<div class="content">
+					<div class="name">Jack Spears</div>
+					Toteli owsom
+				</div>
+			</div>
+
+		</div>
+
+		<div class="fluid input act">
+			<input placeholder="write and press enter" type="text">
+			<i class="send icon"></i>
+		</div>
+	</div>
+</div>
+		</div>
+	</div>
+</div>		
+<br>
+  	</div>
+  
+  </div>
+</div>
+<script src="../../assets/js/jquery.js"></script>
+<script src="../../assets/js/cs.js"></script>
+<script src="../../assets/js/jquery.flot.js"></script>
+<script src="../../assets/js/jquery.flot.resize.js"></script>
+<script src="../../assets/js/app.js"></script>
+<!-- Demo Script -->
+<script src="assets/js/video.min.js"></script>
+<script type="text/javascript">
+		(function($){
+			$(window).on("load",function(){
+
+				var amount=Math.max.apply(Math,$(".scrolled#horizontal").map(function(){return $(this).outerWidth(true);}).get());
+				
+				$(".scrolled#horizontal").mCustomScrollbar({
+					axis:"x",
+					theme:"minimal-dark",
+					advanced:{
+						autoExpandHorizontalScroll:true
+					},
+					scrollButtons:{
+						enable:true,
+						scrollType:"stepped"
+					},
+					keyboard:{scrollType:"stepped"},
+					snapAmount:amount,
+					mouseWheel:{
+						scrollAmount:amount
+					}
+				});
+				
+			});
+		})(jQuery);
+</script>
+</body>
+</html>
